@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal'
 import 'reactjs-popup/dist/index.css';
+import { useEffect } from 'react';
 
 
 const style = {
@@ -13,23 +14,25 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
+    bgcolor: 'black',
     boxShadow: 24,
     p: 4,
   };
 
 export default function Index() {
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+    useEffect(() => {
+        const handleOpen = () => setOpen(true);
+        handleOpen()
+  }, []);
 
     return (
         <div className="body">
             <div>
                 <div></div>
             </div>
-            <Button onClick={handleOpen}>Open modal</Button>
             <Modal
             open={open}
             onClose={handleClose}
@@ -37,10 +40,19 @@ export default function Index() {
             aria-describedby="modal-modal-description"
             >
             <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                Text in a modal
-                </Typography>
+                <h1 style={{borderBottom: '3px solid red', paddingBottom: '20px', textAlign: 'center', fontSize: 30}}>AJUDA VOLUNTÁRIA</h1>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 </Typography>
             </Box>
