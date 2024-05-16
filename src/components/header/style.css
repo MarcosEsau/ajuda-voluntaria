@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+
+}
+
+header {
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column; 
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.ajuda-bg {
+  color: red;
+  font-size: 6.25rem;
+}
+
+.ajuda-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  position: absolute;
+}
+
+.ajuda-span {
+  color: red;
+}
