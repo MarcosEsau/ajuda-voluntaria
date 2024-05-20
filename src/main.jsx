@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './components/header/header';
+import Header from './components/Header';
 import Index from './index';
+import ErrorPage from './ErrorPage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,13 +11,19 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Index/>,
+    element: <Header/>,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Index/>,
+      },
+    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
     <RouterProvider router={router} />
   </React.StrictMode>
 )
