@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './index.css'
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal'
 import 'reactjs-popup/dist/index.css';
@@ -40,8 +39,8 @@ export default function Index() {
             aria-describedby="modal-modal-description"
             >
             <Box sx={style}>
-                <h1 style={{borderBottom: '3px solid red', paddingBottom: '20px', textAlign: 'center', fontSize: 30}}>AJUDA VOLUNTÁRIA</h1>
-                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                <h1 style={{borderBottom: '3px solid red', paddingBottom: '20px', textAlign: 'center', fontSize: 30, color: 'white'}}>AJUDA VOLUNTÁRIA</h1>
+                <Typography style={{color: 'white'}} id="modal-modal-description" sx={{ mt: 2 }}>
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
