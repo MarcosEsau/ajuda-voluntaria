@@ -40,7 +40,7 @@ export default function Index() {
             >
             <Box sx={style}>
                 <h1 style={{borderBottom: '3px solid red', paddingBottom: '20px', textAlign: 'center', fontSize: 30, color: 'white'}}>AJUDA VOLUNTÁRIA</h1>
-                <Typography style={{color: 'white'}} id="modal-modal-description" sx={{ mt: 2 }}>
+                <p style={{color: 'white'}}>
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
@@ -53,7 +53,7 @@ export default function Index() {
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                </Typography>
+                </p>
             </Box>
             </Modal>
         </div>

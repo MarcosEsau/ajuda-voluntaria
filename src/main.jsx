@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './components/header/header';
+import Header from './components/Header';
 import Index from './index';
 import ErrorPage from './ErrorPage';
 import {
