@@ -1,6 +1,10 @@
 h1 {
-    font-size: 7.1rem;
-    text-align: justify;
+    font-size: 7rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 img {
