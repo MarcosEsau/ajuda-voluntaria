@@ -1,42 +1,35 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './components/Header';
+import Layout from './layout'
 import Index from './index';
-import Page from './page';
 import ErrorPage from './ErrorPage';
+import Sobre from './page';
 import {
   createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-const Poggers = () => (
-  <>
-    <Header />
-    <Page />
-  </>
-);
+  RouterProvider
+} from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Poggers />,
+    path: '/',
+    element: <Layout/>,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
-        element: (
-          <>
-            <Index/>
-          </>
-        ),
+        path: '/',
+        element: <Index />,
+      },
+      {
+        path: '/sobre',
+        element: <Sobre/>,
       },
     ],
   },
 ]);
-import Layout from './layout'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Layout/>
+    <RouterProvider router={router}>
+    </RouterProvider>
   </React.StrictMode>
 )

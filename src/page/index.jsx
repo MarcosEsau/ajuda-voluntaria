@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export default function Page() {
+export default function Sobre() {
 
     return (
         <section className="home">
