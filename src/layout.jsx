@@ -1,4 +1,4 @@
-import Header from './components/header';
+import Header from './components/Header';
 import Index from './index';
 import ErrorPage from './ErrorPage';
 import {
