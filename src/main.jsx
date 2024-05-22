@@ -33,9 +33,10 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+import Layout from './layout'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Layout/>
   </React.StrictMode>
 )

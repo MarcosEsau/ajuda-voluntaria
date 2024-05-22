@@ -1,32 +1,10 @@
 import * as React from 'react';
 import './index.css'
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal'
+
 import 'reactjs-popup/dist/index.css';
 import Section1 from '../components/Section';
-import { useEffect } from 'react';
-
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'black',
-    boxShadow: 24,
-    p: 4,
-  };
 
 export default function Index() {
-  const [open, setOpen] = React.useState(false);
-  const handleClose = () => setOpen(false);
-
-    useEffect(() => {
-        const handleOpen = () => setOpen(true);
-        handleOpen()
-  }, []);
 
     return (
         <div className="body">
@@ -41,7 +19,7 @@ export default function Index() {
             >
             <Box sx={style}>
                 <h1 style={{borderBottom: '3px solid red', paddingBottom: '20px', textAlign: 'center', fontSize: 30, color: 'white'}}>AJUDA VOLUNTÁRIA</h1>
-                <Typography style={{color: 'white'}}>
+                <p style={{color: 'white'}}>
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
@@ -54,7 +32,7 @@ export default function Index() {
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                </Typography>
+                </p>
             </Box>
             </Modal>
             <Section1>
