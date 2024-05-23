@@ -4,6 +4,7 @@ import Layout from './layout'
 import Index from './index';
 import ErrorPage from './ErrorPage';
 import Sobre from './page';
+import Doar from './doar';
 import {
   createBrowserRouter,
   RouterProvider
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: '/sobre',
         element: <Sobre/>,
+      },
+      {
+        path: '/doar',
+        element: <Doar/>,
       },
     ],
   },
