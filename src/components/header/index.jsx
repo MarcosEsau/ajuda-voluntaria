@@ -38,8 +38,8 @@ export default function Header() {
           <nav>
               <ul className='nav-bar'>
                   <li><a id="inicio" href="/">Infos</a></li>
-                  <li><a id="noticias" href="/doar">Onde Doar</a></li>
-                  <li><a id="Contato" href="contato.asp">O Que Doar?</a></li>
+                  <li><a id="noticias" href="/doar">Materias</a></li>
+                  <li><a id="Contato" href="/dinheiro">Dinheiro</a></li>
                   <li><a id="Sobre" href="/sobre">Sobre</a></li>
               </ul>
             </nav>

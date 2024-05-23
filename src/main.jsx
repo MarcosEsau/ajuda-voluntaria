@@ -5,6 +5,7 @@ import Index from './index';
 import ErrorPage from './ErrorPage';
 import Sobre from './page';
 import Doar from './doar';
+import Dinheiro from './dinheiro';
 import {
   createBrowserRouter,
   RouterProvider
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/doar',
-        element: <Doar/>,
+        element: <Doar />,
+      },
+      {
+        path: '/dinheiro',
+        element: <Dinheiro />,
       },
     ],
   },
