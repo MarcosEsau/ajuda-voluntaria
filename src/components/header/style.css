@@ -80,7 +80,7 @@ li {
 
 @media screen and (max-width: 480px) {
   .esperanca-title{
-    display: none;
+    font-size: 2rem;
   }
   .esperanca-bg{
     font-size: 3rem;
@@ -91,5 +91,12 @@ li {
   .nav-bar{
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+  }
+  .nav-bar li {
+    padding: 12px;
+  }
+  .nav-bar li + li{
+    padding-left: 12px;
   }
 }

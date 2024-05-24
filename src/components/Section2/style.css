@@ -65,5 +65,15 @@ nav-bar > a {
 @media screen and (max-width: 480px) {
     #site{
         display: block;
-        height: 100vh;
     }
+    .InfoSite{
+        display: block;
+        height: max-content;
+    }
+    .TextoSite{
+        width: 90vw;
+    }
+    .TituloSite{
+        font-size: 40px;
+    }
+}

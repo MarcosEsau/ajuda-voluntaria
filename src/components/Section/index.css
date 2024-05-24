@@ -45,3 +45,15 @@ nav-bar > a {
 img {
     max-width: 31.25rem;
 }
+@media screen and (max-width: 480px) {
+    #site{
+        display: flex;
+        flex-direction: column;
+    }
+    .InfoSite{
+        display: block;
+    }
+    img{
+        max-width: 20rem;
+    }
+}

@@ -23,7 +23,7 @@ export default function Sobre() {
                     <span>El Niño: </span>Fenômeno climático que provoca o aquecimento das águas oceânicas no Oceano Pacífico. Também contribuiu para a intensificação das chuvas no sul do Brasil. 
                 </li>
             </ul>
-            <img src="https://s3.eu-west-2.amazonaws.com/assets.gegroup.com/_500xAUTO_crop_center-center_none/t-pon.svg" alt="" />
+            <img src="https://leouve.com.br/wp-content/uploads/2023/09/8c7572e6-339e-4e28-8c30-05f0630af739.jpg" alt="" />
             <h2>Impactos nas vidas:</h2>
             <p>Impacto na vida das pessoas: 
             As enchentes de 2024 tiveram um impacto devastador na vida das pessoas do Rio Grande do Sul. Famílias perderam suas casas, seus pertences e seus meios alimentícios. Muitas pessoas foram obrigadas a recomeçar suas vidas do zero, enfrentando dificuldades para encontrar moradia, alimentação e trabalho. A tragédia também causou traumas psicológicos profundos, especialmente em crianças e idosos. </p>
