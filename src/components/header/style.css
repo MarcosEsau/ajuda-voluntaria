@@ -9,7 +9,6 @@
 }
 
 header {
-  width: 100vw;
   background-color: black;
   display: flex;
   align-items: center;
@@ -51,7 +50,7 @@ span {
 .nav-bar {
   display: flex;
   background-image: linear-gradient(to right, #327D18, #237C03);
-  width: 100vw;
+  width: 99vw;
   padding: 0px;
   justify-content: center;
 }
@@ -77,4 +76,20 @@ li {
 
 .nav-bar a:hover {
   color: #102c06;
+}
+
+@media screen and (max-width: 480px) {
+  .esperanca-title{
+    display: none;
+  }
+  .esperanca-bg{
+    font-size: 3rem;
+    width: 100vw;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .nav-bar{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

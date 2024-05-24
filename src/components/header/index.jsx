@@ -31,10 +31,8 @@ export default function Header() {
 
     return(
       <header className="header">
-        
           <span className="esperanca-bg gradient">Esperança rs</span>
           <h1 className="esperanca-title">esperança<span className="esperanca-span">rs</span></h1>
-
           <nav>
               <ul className='nav-bar'>
                   <li><a id="inicio" href="/">Infos</a></li>

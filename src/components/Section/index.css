@@ -18,7 +18,7 @@ body {
     align-items: center;
     text-align: justify;
     padding: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.647);
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.647);
 }
 
 .InfoSite > a{

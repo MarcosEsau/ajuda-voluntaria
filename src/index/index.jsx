@@ -1,4 +1,3 @@
-
 import Section1 from '../components/Section';
 import Section2 from '../components/Section2';
 
