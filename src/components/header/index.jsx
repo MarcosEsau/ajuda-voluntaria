@@ -63,18 +63,7 @@ export default function Header() {
           AJUDA VOLUNTÁRIA
         </h1>
         <p style={{ color: 'white' }}>
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        Esse site tem como objetivo servir para que você possa destinar suas doações para o local correto, navegue entre as abas de doação material, e doação em dinheiro ou informações sobre as enchentes. Site feito pelo 2 ano do ensino médio Senac de Santa Cruz do Sul em 2024. 
         </p>
       </Box>
     </Modal>
