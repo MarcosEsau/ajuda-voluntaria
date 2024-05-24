@@ -62,7 +62,8 @@ nav-bar > a {
     color: white;
     text-decoration: none;
 }
-
-img {
-    max-width: 31.25rem;
-}
+@media screen and (max-width: 480px) {
+    #site{
+        display: block;
+        height: 100vh;
+    }
