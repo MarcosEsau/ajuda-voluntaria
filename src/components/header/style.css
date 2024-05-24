@@ -77,3 +77,19 @@ li {
 .nav-bar a:hover {
   color: #102c06;
 }
+
+@media screen and (max-width: 480px) {
+  .esperanca-title{
+    display: none;
+  }
+  .esperanca-bg{
+    font-size: 3rem;
+    width: 100vw;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .nav-bar{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

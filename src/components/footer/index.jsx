@@ -1,6 +1,6 @@
 export default function Footer() {
     return(
-        <div style={{display: 'flex', backgroundColor: 'black', padding: 20, justifyContent: 'space-between', alignItems: 'center'}}>
+        <div style={{display: 'flex', backgroundColor: 'black', padding: 20, justifyContent: 'space-between', alignItems: 'center', paddingBottom: 50}}>
             <p style={{color: 'white'}}>
                 Pagina desenvolvida pelo 2 ano do ensimo Médio Senac SCS <br/>
                 2024
