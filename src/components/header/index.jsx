@@ -37,9 +37,9 @@ export default function Header() {
 
           <nav>
               <ul className='nav-bar'>
-                  <li><a id="inicio" href="/">Início</a></li>
-                  <li><a id="noticias" href="news.asp">Notícias</a></li>
-                  <li><a id="Contato" href="contato.asp">Contato</a></li>
+                  <li><a id="inicio" href="/">Infos</a></li>
+                  <li><a id="noticias" href="/doar">Materias</a></li>
+                  <li><a id="Contato" href="/dinheiro">Dinheiro</a></li>
                   <li><a id="Sobre" href="/sobre">Sobre</a></li>
               </ul>
             </nav>
