@@ -1,6 +1,5 @@
 // Index.js
 import * as React from 'react';
-import './index.css'
 import Section1 from '../components/Section';
 
 export default function Index() {
