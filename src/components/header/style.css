@@ -9,7 +9,6 @@
 }
 
 header {
-  width: 100vw;
   background-color: black;
   display: flex;
   align-items: center;
@@ -51,7 +50,7 @@ span {
 .nav-bar {
   display: flex;
   background-image: linear-gradient(to right, #327D18, #237C03);
-  width: 100vw;
+  width: 99vw;
   padding: 0px;
   justify-content: center;
 }
